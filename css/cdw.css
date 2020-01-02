@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif,Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #fff;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dddddd;
+	transition-duration: 0.3s;	
+}
+
+h2 {
+	font-size: 0.9em;
+	margin: 5px 0;
+}
+p {
+	font-size: 0.8em;
+	margin: 5px 0;
+}
+
+.logo {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.intro {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/CDW_contactpage.jpg) no-repeat center center fixed;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+
+
+.intro .intro-body {
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    overflow: auto;
+    height: 100%;
+}
+
+.table {
+	display: block;
+    max-width: 650px;
+    height: 100%;
+	font-family: 'Lato', sans-serif,Helvetica,Arial,sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-3 {
+	float: left;
+	width: 33.33%;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.social {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -57px;
+}
+
+.social a {
+	display: inline-block;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.social a:last-child {
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.col-12 {
+		width: 90%;
+		margin: 15px 5%;
+	}
+	.col-3 {
+		width: 100%;
+		margin: 15px auto;
+		text-align: center;
+	}
+	.col-3:last-child {
+		margin-bottom: 50px;
+	}
+	.social {
+		position: relative;
+	    float: left;
+	    left: auto;
+	    margin-left: auto;
+	    margin-bottom: 25px;
+	    margin-top: 55px;
+	    margin-right: auto;
+	    text-align: center;
+	    width: 100%;
+	}
+}
