@@ -19,9 +19,8 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
-	color: #dddddd;
-	transition-duration: 0.3s;	
+	background: rgba(255,255,255,1);
+	color:rgba(0,0,0,1);	
 }
 
 h2 {
