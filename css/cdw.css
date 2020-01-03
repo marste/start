@@ -69,6 +69,18 @@ p {
     height: 100%;
 }
 
+.table {
+	display: block;
+    max-width: 650px;
+    height: 100%;
+	font-family: 'Bebas Neue', sans-serif,Helvetica,Arial,sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: top;
+    overflow: auto;
+}
+
 .col-12 {
 	width: 100%;
 }
@@ -81,8 +93,12 @@ p {
 }
 
 .social {
+	position: fixed;
 	bottom: 20px;
+	left: 50%;
+	margin-left: -57px;
 }
+
 
 .social a {
 	display: inline-block;
