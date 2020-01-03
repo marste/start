@@ -95,6 +95,14 @@ p {
 }
 
 
+footer {
+    position: relative;
+}
+.copyright{
+    position: absolute;
+    bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
 	.col-12 {
 		width: 90%;
